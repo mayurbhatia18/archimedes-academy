@@ -1,0 +1,183 @@
+html {
+
+text-rendering: optimizeLegibility !important;
+
+-webkit-font-smoothing: antialiased !important;
+
+}
+
+body{
+
+	font-size: 16px;
+	color:#f4f4f4;
+	font-family: sans-serif;
+}
+
+a{
+
+	text-decoration: none !important;
+}
+
+.row{
+
+	margin-right:0px !important;
+	margin-left:0px !important;
+}
+
+.main-div{
+	background: url('images/course-back.jpg')  no-repeat; 
+	background-size: cover;
+	width:100%; 
+	height:620px; 
+	margin-top: -50px;
+	
+}
+
+/*ipad portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait)  {
+
+
+	.main-div{
+
+		background: url('images/course-div-i.jpg');
+		background-size: 100%;
+	}
+}
+
+/*ipad landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) {
+
+	.main-div{
+
+		background: url('images/course-div-i1.jpg');
+		background-size: 100%;
+	}
+}
+
+@media only screen 
+  and (max-device-width: 767px) 
+  and (orientation: portrait) { 
+
+.main-div{background: url('images/course_back_pp.jpg') no-repeat;
+background-size: 100%;
+}
+}
+
+@media only screen 
+  and (max-device-width: 767px) 
+  and (orientation: landscape) { 
+
+.main-div{background: url('images/course_back_pl.jpg') no-repeat;
+background-size: 100%;
+}
+}
+
+@import url(http://fonts.googleapis.com/css?Roboto);
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  background: #f1f1f1;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+.material {
+  width: 100%;
+  height: 500px;
+  padding: 1em;
+  background: white;
+  position: relative;
+  text-align: center;
+  color: #4d4d4d;
+  box-shadow: 0 0 4px 2px rgba(80, 80, 80, 0.1);
+  overflow: hidden;
+  -webkit-transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
+}
+.material:hover {
+  box-shadow: 0 2px 4px 4px rgba(80, 80, 80, 0.2);
+}
+.material .background {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 5em;
+  height: 5em;
+  -webkit-transition: width 0.3s ease, height 0.3s ease, border-radius 0.4s ease, top 0.3s ease, left 0.3s ease;
+  transition: width 0.3s ease, height 0.3s ease, border-radius 0.4s ease, top 0.3s ease, left 0.3s ease;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0 2px 4px 0px rgba(40, 40, 40, 0.4);
+}
+.material .background.active {
+  width: 145%;
+  height: 145%;
+  left: 50%;
+  top: -20%;
+  z-index: 9;
+}
+.material .background1 {
+  background: #2196F3;
+  left: 10%;
+}
+.material .background2 {
+  background: #F44336;
+  left:20%;
+}
+.material .background3 {
+  background: #009688;
+  left: 30%;
+}
+
+.material .background4 {
+  background: #009688;
+  left: 40%;
+}
+
+.material .background5 {
+  background: #009688;
+  left: 50%;
+}
+
+.material .background6 {
+  background: #009688;
+  left: 60%;
+}
+
+.material .background7 {
+  background: #009688;
+  left: 70%;
+}
+
+.material .background8 {
+  background: #009688;
+  left: 80%;
+}
+
+.material .background9 {
+  background: #009688;
+  left: 90%;
+}
+
+.centered, .container {
+  
+
+}
+
+.cbse{
+
+	display: block;
+	margin:auto;
+}

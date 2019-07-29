@@ -1,0 +1,61 @@
+
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.nav{
+
+	float: right;
+}
+
+.nav li{
+
+	font-family: sans-serif;
+	font-size: 16px;
+    color:#2aacc1;
+}
+
+.nav li a{
+    color:#2aacc1 !important;
+}
+
+.nav li a:hover{
+    color:#f4f4f4 !important;
+}
+
+.navbar-inverse{
+
+    background-color: #1a1a1a !important;
+    box-shadow: 2px 2px 3px #111;; 
+    border: none !important;
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 768px){
+
+	    .nav{
+
+	float: left;
+}
+}
